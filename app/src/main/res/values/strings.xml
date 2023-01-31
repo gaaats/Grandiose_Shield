@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Just Play Plinko</string>
+    <string name="facebook_app_id">1064240701206545</string>
+    <string name="facebook_client_token">831cf6e2c82020e138f6c6600f1eaeb7</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

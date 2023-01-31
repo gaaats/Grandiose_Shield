@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mmmmmmmamama"
+    app:startDestination="@id/maaaiananFragment">
+
+    <fragment
+        android:id="@+id/maaaiananFragment"
+        android:name="com.miHoYo.Gen.MaaaiananFragment"
+        android:label="fragment_maaaianan"
+        tools:layout="@layout/fragment_maaaianan" >
+        <action
+            android:id="@+id/action_maaaiananFragment_to_cooontryryyFragment"
+            app:destination="@id/cooontryryyFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/cooontryryyFragment"
+        android:name="com.miHoYo.Gen.CooontryryyFragment"
+        android:label="fragment_cooontryryy"
+        tools:layout="@layout/fragment_cooontryryy" >
+        <action
+            android:id="@+id/action_cooontryryyFragment_to_seeecciciMainFragment"
+            app:destination="@id/seeecciciMainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/seeecciciMainFragment"
+        android:name="com.miHoYo.Gen.SeeecciciMainFragment"
+        android:label="fragment_seeeccici_main"
+        tools:layout="@layout/fragment_seeeccici_main" >
+        <action
+            android:id="@+id/action_seeecciciMainFragment_to_prrreefFragment"
+            app:destination="@id/prrreefFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/prrreefFragment"
+        android:name="com.miHoYo.Gen.PrrreefFragment"
+        android:label="fragment_prrreef"
+        tools:layout="@layout/fragment_prrreef" >
+        <action
+            android:id="@+id/action_prrreefFragment_to_fiiilalalaFragment"
+            app:destination="@id/fiiilalalaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/fiiilalalaFragment"
+        android:name="com.miHoYo.Gen.FiiilalalaFragment"
+        android:label="fragment_fiiilalala"
+        tools:layout="@layout/fragment_fiiilalala" />
+</navigation>

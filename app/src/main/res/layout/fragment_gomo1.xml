@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/gaaaaame"
+    android:layout_height="match_parent"
+    tools:context=".Gomo1Fragment">
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_hor_95gttg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.95" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_hor_50fgrr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.50" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_vert_05gt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.05" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_vert_95gtgtt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.95" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_hor_05gt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.05" />
+
+
+    <ImageView
+        android:id="@+id/img_titple_gamefrrfr"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:padding="12dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/man"
+        app:layout_constraintBottom_toBottomOf="@id/guideline_hor_95gttg"
+        app:layout_constraintEnd_toEndOf="@id/guideline_vert_95gtgtt"
+        app:layout_constraintTop_toTopOf="@id/guideline_hor_05gt" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_game_naaame"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="13sp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/montserrat_black"
+        android:gravity="center"
+        android:text="🗣 Please, help me find all my\nmeteorites"
+        android:textAllCaps="true"
+        android:textColor="#009688"
+        app:layout_constraintEnd_toStartOf="@id/img_titple_gamefrrfr"
+        app:layout_constraintStart_toStartOf="@id/guideline_vert_05gt"
+        app:layout_constraintTop_toTopOf="@id/img_titple_gamefrrfr"
+        app:layout_constraintBottom_toBottomOf="@id/img_titple_gamefrrfr"/>
+
+
+    <ImageView
+        android:id="@+id/img_el1"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:scaleType="centerInside"
+        app:layout_constraintStart_toStartOf="@id/guideline_vert_05gt"
+        app:layout_constraintTop_toBottomOf="@id/img_titple_gamefrrfr"
+        android:src="@drawable/ball"
+        app:layout_constraintEnd_toStartOf="@id/img_el2"
+        app:layout_constraintEnd_toEndOf="@id/guideline_vert_95gtgtt" />
+
+    <ImageView
+        android:id="@+id/img_el2"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:scaleType="centerInside"
+        app:layout_constraintStart_toEndOf="@id/img_el1"
+        app:layout_constraintTop_toBottomOf="@id/img_titple_gamefrrfr"
+        android:src="@drawable/ball"
+        app:layout_constraintEnd_toEndOf="@id/img_el3" />
+
+    <ImageView
+        android:id="@+id/img_el3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:scaleType="centerInside"
+        app:layout_constraintStart_toEndOf="@id/img_el2"
+        app:layout_constraintTop_toBottomOf="@id/img_titple_gamefrrfr"
+        android:src="@drawable/ball"
+        app:layout_constraintEnd_toEndOf="@id/guideline_vert_95gtgtt" />
+
+
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_play_gameeee"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:fontFamily="@font/montserrat_black"
+        android:text="init game"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@id/guideline_vert_95gtgtt"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@id/guideline_vert_05gt"
+        app:layout_constraintTop_toBottomOf="@id/img_el1"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+
+    <TextView
+        android:id="@+id/tv_dovn_text_looogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alpha="0.7"
+        android:fontFamily="@font/montserrat_black"
+        android:text="@string/app_name"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="11sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/guideline_hor_95gttg" />
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
